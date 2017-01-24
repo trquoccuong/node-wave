@@ -1,6 +1,6 @@
 {
   "name": "node-wave",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Render waveform image like SoundCloud",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,16 @@
   },
   "author": "Tran Quoc Cuong <trquoccuong@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "SoundCloud waveform",
+    "backend waveform",
+    "waveform",
+    "audio waveform"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trquoccuong/node-wave.git"
+  },
   "dependencies": {
     "canvas": "^1.6.2",
     "web-audio-api": "^0.2.2"
