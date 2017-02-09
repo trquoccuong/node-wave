@@ -1,6 +1,6 @@
 {
   "name": "node-wave",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Render waveform image like SoundCloud",
   "main": "index.js",
   "scripts": {
@@ -19,8 +19,7 @@
     "url": "git+https://github.com/trquoccuong/node-wave.git"
   },
   "dependencies": {
-    "canvas": "^1.6.2",
-    "web-audio-api": "^0.2.2"
+    "canvas": "^1.6.2"
   },
   "devDependencies": {
     "mocha": "^3.2.0",
