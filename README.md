@@ -1,6 +1,7 @@
 # Node wave
 > Render audio waveform like SoundCloud on backend
-
+Now we have 2 version 0.0.4 and 0.0.3
+0.0.4:  I used `ffmpeg`, It take less cpu and memory than version 0.0.3 but you need to install `ffmpeg`
 ## Install
 
 ```
@@ -23,6 +24,7 @@ Waveform('< mp3 link >', options, function(err , buffer) {
 
 ## Requirement
  This module base on `web-audio-api` and `canvas` modules.
+ You need to install `Cairo`. Follow install `canvas` instructor https://www.npmjs.com/package/canvas
  
 ## Attribute
 
