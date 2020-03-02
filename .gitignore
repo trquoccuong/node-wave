@@ -5,7 +5,7 @@
 # IntelliJ project files
 .idea
 *.iml
-out
+out*
 gen
 node_modules/
 npm-debug.log
