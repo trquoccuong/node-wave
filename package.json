@@ -1,10 +1,12 @@
 {
   "name": "node-wave",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Render waveform image like SoundCloud",
   "main": "index.js",
   "scripts": {
-    "lint": "standard"
+    "lint": "standard",
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "mocha"
   },
   "author": "Tran Quoc Cuong <trquoccuong@gmail.com>",
   "license": "MIT",
@@ -19,10 +21,13 @@
     "url": "git+https://github.com/trquoccuong/node-wave.git"
   },
   "dependencies": {
-    "canvas": "^1.6.2"
+    "canvas": "^2.6.1"
   },
   "devDependencies": {
-    "mocha": "^3.2.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-strongloop": "^2.1.0",
+    "mocha": "^3.5.3",
     "standard": "^8.6.0"
   }
 }
